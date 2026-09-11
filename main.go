@@ -29,9 +29,9 @@ func main() {
 	publicPort := getEnv("PORT", getEnv("PUBLIC_PORT", "2053"))
 	panelPort := getEnv("XUI_PORT", "20530")
 	vlessPort := getEnv("VLESS_PORT", "20868")
-	vlessPrefix := getEnv("VLESS_PREFIX", "/xvpnws/")
+	vlessPrefix := getEnv("VLESS_PREFIX", "/xmailtemp/")
 	subPort := getEnv("SUB_PORT", "2096")
-	subPrefix := getEnv("SUB_PREFIX", "/sub/")
+	subPrefix := getEnv("SUB_PREFIX", "/sixhat/")
 
 	dataDir := getEnv("XUI_DATA_DIR", "/app/data")
 	installDir := getEnv("XUI_INSTALL_DIR", "/app/x-ui")
